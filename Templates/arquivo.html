@@ -1,0 +1,13 @@
+<html>
+    <header></header>
+    <body>
+        <h1>Faça sua Pergunta</h1>
+
+        <form action="{{url_for('bp_requisicao1.operacao_banco')}}" method="post">
+            Titulo: <input type="text" name="titulo"/>
+            Descrição: <input type="text" name="pergunta"/><br>
+            <br>
+            <input type="submit" value="Enviar"/>
+        </form>
+    </body>
+</html>
